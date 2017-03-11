@@ -12,9 +12,8 @@ binutils
 bison
 blueman
 bmenu
->openrc cgmanager-openrc
 clipit
->openrc consolekit-openrc
+>openrc elogind-openrc
 dfc
 >openrc displaymanager-openrc
 dmidecode
@@ -82,7 +81,7 @@ ncdu
 netctl
 >systemd networkmanager
 >openrc networkmanager-openrc
->openrc networkmanager-consolekit
+>openrc networkmanager-elogind
 network-manager-applet
 networkmanager-dispatcher-ntpd
 networkmanager-openconnect

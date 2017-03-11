@@ -66,7 +66,7 @@ alsa-firmware
 mobile-broadband-provider-info
 modemmanager
 >systemd networkmanager
->openrc networkmanager-consolekit
+>openrc networkmanager-elogind
 >openrc networkmanager-openrc
 >openrc avahi-openrc
 >systemd avahi
@@ -77,10 +77,9 @@ nss-mdns
 >openrc openssh-openrc
 
 ## Misc
->openrc consolekit-openrc
+>openrc elogind-openrc
 >openrc displaymanager-openrc
 >openrc pm-utils
->openrc cgmanager-openrc
 manjaro-hotfixes
 
 #accessibility packages

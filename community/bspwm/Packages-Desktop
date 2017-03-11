@@ -50,9 +50,8 @@ ncdu
 networkmanager-dispatcher-ntpd
 >openrc acpid-openrc
 >openrc alsa-utils-openrc
->openrc cgmanager-openrc
 >openrc displaymanager-openrc
->openrc networkmanager-consolekit
+>openrc networkmanager-elogind
 >openrc networkmanager-openrc
 >openrc pm-utils
 pacli

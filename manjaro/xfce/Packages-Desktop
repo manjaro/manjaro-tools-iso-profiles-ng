@@ -3,7 +3,7 @@
 >openrc avahi-openrc
 >systemd networkmanager
 >openrc networkmanager-openrc
->openrc networkmanager-consolekit
+>openrc networkmanager-elogind
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
@@ -266,8 +266,7 @@ xdg-utils
 xdg-su
 
 ## Misc
->openrc consolekit-openrc
+>openrc elogind-openrc
 >openrc displaymanager-openrc
 >openrc pm-utils
->openrc cgmanager-openrc
 manjaro-hotfixes

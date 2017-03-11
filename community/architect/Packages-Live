@@ -9,10 +9,9 @@ manjaro-hotfixes
 manjaro-syslinux-theme
 mkinitcpio-nfs-utils
 nbd
->openrc cgmanager-openrc
->openrc consolekit-openrc
+>openrc elogind-openrc
 >openrc manjaro-live-openrc
->openrc networkmanager-consolekit
+>openrc networkmanager-elogind
 >openrc networkmanager-openrc
 >openrc pm-utils
 open-vm-tools

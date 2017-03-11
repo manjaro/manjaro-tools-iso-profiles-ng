@@ -14,10 +14,9 @@ nss-mdns
 numlockx
 >openrc alsa-utils-openrc
 >openrc avahi-openrc
->openrc cgmanager-openrc
->openrc consolekit-openrc
+>openrc elogind-openrc
 >openrc displaymanager-openrc
->openrc networkmanager-consolekit
+>openrc networkmanager-elogind
 >openrc networkmanager-openrc
 >openrc ntp-openrc
 >openrc openssh-openrc

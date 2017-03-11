@@ -11,14 +11,13 @@ manjaro-live-skel
 mkinitcpio-nfs-utils
 nbd
 network-manager-applet
->openrc cgmanager-openrc
->openrc consolekit-openrc
+>openrc elogind-openrc
 >openrc displaymanager-openrc
 >openrc manjaro-live-openrc
->openrc networkmanager-consolekit
+>openrc networkmanager-elogind
 >openrc networkmanager-openrc
 >openrc pm-utils
->openrc sddm-consolekit
+>openrc sddm-elogind
 open-vm-tools
 qt5ct
 sddm-andromeda-qt-theme
