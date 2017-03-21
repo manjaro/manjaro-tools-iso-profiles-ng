@@ -76,11 +76,9 @@ numlockx
 >openrc avahi-openrc
 >openrc elogind-openrc
 >openrc displaymanager-openrc
->openrc networkmanager-elogind
 >openrc networkmanager-openrc
 >openrc ntp-openrc
 >openrc openssh-openrc
->openrc pm-utils
 >openrc sddm-elogind
 >openrc syslog-ng-openrc
 openresolv
@@ -91,7 +89,7 @@ pulseaudio-ctl
 pulseaudio-zeroconf
 >systemd alsa-utils
 >systemd avahi
->systemd networkmanager
+networkmanager
 >systemd ntp
 >systemd openssh
 terminus-font
@@ -108,7 +106,6 @@ firefox-arc-maia-settings
 manjaro-mate-panel-layout
 vino
 xdg-su
-xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 xf86-input-elographics
@@ -117,7 +114,6 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
-xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
@@ -156,3 +152,9 @@ yelp
 >extra subversion
 >extra yaourt
 
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>systemd xdg-user-dirs
+>systemd xorg-server

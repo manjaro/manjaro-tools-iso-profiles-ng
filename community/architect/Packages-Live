@@ -11,12 +11,10 @@ mkinitcpio-nfs-utils
 nbd
 >openrc elogind-openrc
 >openrc manjaro-live-openrc
->openrc networkmanager-elogind
 >openrc networkmanager-openrc
->openrc pm-utils
 open-vm-tools
 >systemd manjaro-live-systemd
->systemd networkmanager
+networkmanager
 >x86_64 manjaro-efi-utils
 terminus-font
 virtualbox-guest-utils

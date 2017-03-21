@@ -1,9 +1,8 @@
 ## Network
 >systemd avahi
 >openrc avahi-openrc
->systemd networkmanager
+networkmanager
 >openrc networkmanager-openrc
->openrc networkmanager-elogind
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
@@ -296,7 +295,6 @@ xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics
-xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
@@ -306,12 +304,16 @@ mesa-demos
 
 ## Desktop Utils
 perl-file-mimeinfo
-xdg-user-dirs
 xdg-utils
 xdg-su
 
 ## Misc
 >openrc elogind-openrc
 >openrc displaymanager-openrc
->openrc pm-utils
 manjaro-hotfixes
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>systemd xdg-user-dirs
+>systemd xorg-server

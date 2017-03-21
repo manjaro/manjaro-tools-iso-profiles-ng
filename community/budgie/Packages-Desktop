@@ -111,7 +111,6 @@ budgie-wallpapers
 moka-icon-theme
 vino
 xdg-su
-xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 xf86-input-elographics
@@ -120,10 +119,15 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
-xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
 xorg-xinit
 yelp
 >extra gtk3-print-backends
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>systemd xdg-user-dirs
+>systemd xorg-server

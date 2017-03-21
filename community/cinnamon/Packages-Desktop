@@ -107,7 +107,6 @@ ttf-liberation
 vi
 >extra xcursor-chameleon-pearl-deepin
 xdg-su
-xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 xed
@@ -117,7 +116,6 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
-xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
@@ -126,3 +124,9 @@ xorg-xinit
 >extra xreader
 >extra xviewer-plugins
 >extra yaourt
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>systemd xdg-user-dirs
+>systemd xorg-server

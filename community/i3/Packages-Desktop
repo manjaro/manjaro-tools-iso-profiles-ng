@@ -78,10 +78,9 @@ mousepad
 >multilib lib32-flex
 >multilib lib32-mesa-demos
 ncdu
-netctl
->systemd networkmanager
+>systemd netctl
+networkmanager
 >openrc networkmanager-openrc
->openrc networkmanager-elogind
 network-manager-applet
 networkmanager-dispatcher-ntpd
 networkmanager-openconnect
@@ -102,7 +101,6 @@ patch
 pcmanfm
 perl-file-mimeinfo
 pkg-config
->openrc pm-utils
 polkit-gnome
 poppler-data
 powertop
@@ -136,7 +134,6 @@ xautolock
 xcursor-chameleon-pearl
 xcursor-maia
 xdg-su
-xdg-user-dirs
 xdg-utils
 xdotool
 xf86-input-elographics
@@ -147,7 +144,6 @@ xf86-input-mouse
 xf86-input-void
 xfburn
 xfce4-power-manager
-xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
@@ -156,3 +152,9 @@ xorg-xkill
 xorg-xprop
 xterm
 yaourt
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>systemd xdg-user-dirs
+>systemd xorg-server
