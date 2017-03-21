@@ -88,9 +88,11 @@ pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 sushi
+>systemd xdg-user-dirs
+>systemd xorg-server
 >systemd alsa-utils
 >systemd avahi
->systemd networkmanager
+networkmanager
 >systemd ntp
 >systemd openssh
 terminus-font
@@ -116,7 +118,6 @@ xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
 >systemd xf86-input-libinput
->openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-void
 xorg-server-utils
@@ -131,12 +132,23 @@ yelp
 >extra unace
 >extra lrzip
 >extra gtk3-print-backends
->openrc accountsservice-elogind
->openrc upower-nosystemd
+>openrc alsa-utils-openrc
+>openrc avahi-openrc
+>openrc elogind-openrc
+>openrc cronjobs
+>openrc displaymanager-openrc
+>openrc networkmanager-openrc
+>openrc ntp-openrc
+>openrc openssh-openrc
+>openrc sddm-elogind
+>openrc syslog-ng-openrc
+>openrc json-c
 >openrc xdg-user-dirs-nosystemd
 >openrc xorg-server-nosystemd
->systemd xdg-user-dirs
->systemd xorg-server
+>openrc xf86-input-libinput-nosystemd
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
 >extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop

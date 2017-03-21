@@ -249,6 +249,10 @@ xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics
+>systemd xdg-user-dirs
+>systemd xorg-server
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
 numlockx
 mesa-demos
 >multilib lib32-mesa-demos
@@ -264,13 +268,10 @@ xdg-utils
 xdg-su
 
 ## Misc
+manjaro-hotfixes
 >openrc elogind-openrc
 >openrc displaymanager-openrc
-manjaro-hotfixes
 >openrc accountsservice-elogind
 >openrc upower-nosystemd
 >openrc udisks2-elogind
->openrc xdg-user-dirs-nosystemd
->openrc xorg-server-nosystemd
->systemd xdg-user-dirs
->systemd xorg-server
+
