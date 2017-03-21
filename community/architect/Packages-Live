@@ -21,7 +21,7 @@ virtualbox-guest-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-libinput
-xf86-input-mouse
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemdxf86-input-mouse
 xf86-input-vmmouse
 xf86-input-void

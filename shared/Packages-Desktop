@@ -21,6 +21,7 @@ numlockx
 >openrc openssh-openrc
 >openrc accountsservice-elogind
 >openrc upower-nosystemd
+>openrc udisks2-elogind
 >openrc xdg-user-dirs-nosystemd
 >openrc xorg-server-nosystemd
 powertop
@@ -43,7 +44,8 @@ xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-libinput
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-void
 xorg-server-utils
