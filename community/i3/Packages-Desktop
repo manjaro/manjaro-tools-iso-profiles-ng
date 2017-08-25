@@ -97,6 +97,7 @@ open-fuse-iso
 >systemd openssh
 >openrc openssh-openrc
 p7zip
+pacaur
 palemoon-bin
 pamac
 patch
@@ -152,7 +153,6 @@ xorg-xinit
 xorg-xkill
 xorg-xprop
 xterm
-yaourt
 >openrc accountsservice-elogind
 >openrc upower-nosystemd
 >openrc udisks2-elogind
