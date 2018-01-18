@@ -76,7 +76,6 @@ modemmanager
 >multilib lib32-mesa-demos
 netctl
 networkmanager
-networkmanager-dispatcher-ntpd
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp

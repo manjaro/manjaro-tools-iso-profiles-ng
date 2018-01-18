@@ -67,7 +67,6 @@ usb_modeswitch
 >multilib lib32-mesa-demos
 netctl
 network-manager-applet
-networkmanager-dispatcher-ntpd
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
