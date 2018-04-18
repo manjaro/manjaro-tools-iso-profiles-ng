@@ -72,7 +72,7 @@ cantarell-fonts
 # >extra noto-fonts-emoji
 terminus-font
 >extra ttf-bitstream-vera
-# ttf-dejavu             # Installed as gnome-themes-standard dependency
+ttf-dejavu
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation
