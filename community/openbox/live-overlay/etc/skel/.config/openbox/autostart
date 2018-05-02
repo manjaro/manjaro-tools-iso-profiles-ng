@@ -12,9 +12,6 @@ manjaro-conky-session; sleep 0.5 &
 # Openbox autostart
 ob-autostart -d; sleep 0.5 &
 
-# Required for xfce settings to work
-xfsettingsd &
-
 # PolicyKit authentication
 lxpolkit &
 

@@ -44,7 +44,7 @@ xorg-server
 mesa-demos
 >multilib lib32-mesa-demos
 xorg-twm
-xorg-xbacklight
+xorg-xbackligt
 xorg-xinit
 xorg-xkill
 xorg-xprop
