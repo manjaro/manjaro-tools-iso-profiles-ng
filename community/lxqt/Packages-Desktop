@@ -38,7 +38,7 @@ powertop
 qterminal
 octopi
 octopi-notifier-qt5
-qupzilla
+falkon
 sddm-qt-manjaro-theme
 alsa-utils
 avahi
@@ -66,3 +66,21 @@ xdg-su
 xdg-utils
 xorg-twm
 xorg-xinit
+claws-mail
+imagewriter
+lximage-qt
+gparted
+libreoffice-still
+xf86-input-synaptics
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gtk3-print-backends
+>extra hplip
+>extra splix
+>extra simple-scan
+>extra jdk8-openjdk
+>extra jre8-openjdk-headless
+>extra jre8-openjdk
