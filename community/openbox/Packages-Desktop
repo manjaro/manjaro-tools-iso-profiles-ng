@@ -29,11 +29,11 @@ manjaro-zsh-config
 
 ## Openbox minimal
 >basic manjaro-openbox-minimal
->basic manjaro-openbox-minimal-settings
+>basic manjaro-openbox-settings-minimal
 
 ## Openbox extra
 >extra manjaro-openbox-extra
->extra manjaro-openbox-extra-settings
+>extra manjaro-openbox-settings-extra
 
 ## Display Manager
 lightdm
