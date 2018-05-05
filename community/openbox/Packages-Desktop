@@ -18,13 +18,22 @@ manjaro-documentation-en
 manjaro-hello
 manjaro-settings-manager
 
+## Openbox
+manjaro-openbox-core
+manjaro-openbox-grub-theme
+manjaro-openbox-scripts
+manjaro-openbox-theming-fonts
+manjaro-openbox-theming-icons
+manjaro-openbox-theming-theme
+manjaro-zsh-config
+
 ## Openbox minimal
 >basic manjaro-openbox-minimal
->basic manjaro-openbox-settings-minimal
+>basic manjaro-openbox-minimal-settings
 
 ## Openbox extra
 >extra manjaro-openbox-extra
->extra manjaro-openbox-extra
+>extra manjaro-openbox-extra-settings
 
 ## Display Manager
 lightdm
