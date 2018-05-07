@@ -9,7 +9,7 @@
 	</item>
 	<item label="PDF Viewer">
 		<action name="Execute">
-			<command>qpdfview</command>
+			<command>qpdf</command>
 		</action>
 	</item>
 	<item label="Picture Viewer">
@@ -21,22 +21,22 @@
 <menu id="screenshot" label="Screenshot">
 	<item label="Screenshot Now">
 		<action name="Execute">
-			<command>scrot &apos;screenshot_%Y%m%d-%H%M%S_$wx$h.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
+			<command>scrot &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
 		</action>
 	</item>
 	<item label="Screenshot in 5">
 		<action name="Execute">
-			<command>scrot -d 5 &apos;screenshot_%Y%m%d-%H%M%S_$wx$h.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
+			<command>scrot -d 5 &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
 		</action>
 	</item>
 	<item label="Screenshot in 10">
 		<action name="Execute">
-			<command>scrot -d 10 &apos;screenshot_%Y%m%d-%H%M%S_$wx$h.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
+			<command>scrot -d 10 &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
 		</action>
 	</item>
 	<item label="Screenshot With Selection">
 		<action name="Execute">
-			<command>scrot -s &apos;screenshot_%Y%m%d-%H%M%S_$wx$h.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
+			<command>scrot -s &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
 		</action>
 	</item>
 </menu>
@@ -46,7 +46,7 @@
 			<action name="Execute">
 				<command>obconf</command>
 			</action>
-		</item>		
+		</item>
 		<item label="Menu Editor">
 			<action name="Execute">
 				<command>kickshaw</command>
@@ -65,17 +65,17 @@
 		<separator label="Configuration files"/>
 		<item label="Open autostart">
 			<action name="Execute">
-				<command>xdg-open ~/.config/openbox/autostart</command>
+				<command>subl3 ~/.config/openbox/autostart</command>
 			</action>
 		</item>
 		<item label="Open menu.xml">
 			<action name="Execute">
-				<command>xdg-open ~/.config/openbox/menu.xml</command>
+				<command>subl3 ~/.config/openbox/menu.xml</command>
 			</action>
 		</item>
 		<item label="Open rc.xml">
 			<action name="Execute">
-				<command>xdg-open ~/.config/openbox/rc.xml</command>
+				<command>subl3 ~/.config/openbox/rc.xml</command>
 			</action>
 		</item>
 		<separator/>
@@ -135,7 +135,7 @@
 		<action name="Execute">
 			<command>termite -e "sudo setup"</command>
 		</action>
-	</item>	
+	</item>
 </menu>
 
 <menu id="root-menu" label="Openbox 3">
