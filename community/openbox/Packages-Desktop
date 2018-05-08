@@ -1,70 +1,29 @@
-## system requirements
-dmidecode # optional for inxi
-gamin
-gnome-keyring
-gksu
-gtk3-classic
-inxi
-lxsession-gtk3
-polkit
-
-## Common Libs for Sound/Audio/Video
-alsa-firmware
-alsa-utils
-
-# Manjaro
-manjaro-browser-settings
-manjaro-documentation-en
-manjaro-hello
-manjaro-settings-manager
-
-## Openbox
-manjaro-openbox-core
-manjaro-openbox-grub-theme
-manjaro-openbox-scripts
-manjaro-openbox-theming-fonts
-manjaro-openbox-theming-icons
-manjaro-openbox-theming-theme
-manjaro-zsh-config
-
-## Openbox minimal
->basic manjaro-openbox-minimal
->basic manjaro-openbox-settings-minimal
-
-## Openbox extra
->extra manjaro-openbox-extra
->extra manjaro-openbox-settings-extra
-
-## Display Manager
-lightdm
-lightdm-slick-greeter
-accountsservice
-
-## Xorg Input Drivers
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-keyboard
-xf86-input-libinput
-xf86-input-mouse
-xf86-input-void
-
-## Xorg Server and Graphics
+## xorg
 xorg-server
-mesa-demos
->multilib lib32-mesa-demos
-xorg-twm
+xorg-server-common
 xorg-xbacklight
 xorg-xinit
 xorg-xkill
 xorg-xprop
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
 
-## Desktop Utils
-numlockx
-perl-file-mimeinfo
+## system requirements
+gnome-keyring
+gtk3-classic                # toolkit
+polkit                      # policy
+poppler
 python2-xdg
 xdg-user-dirs
 xdg-utils
-xdg-su
 
-## Misc
-manjaro-hotfixes
+## graphical partitioning
+gparted
+
+## manjaro
+manjaro-settings-manager
+
+manjaro-openbox-minimal
+manjaro-openbox-settings-minimal
+manjaro-zsh-config
