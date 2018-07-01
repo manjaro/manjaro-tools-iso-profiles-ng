@@ -36,7 +36,7 @@ gnome-keyring
 gparted
 groff
 >extra gst-libav
->extra gst-plu gins-bad
+>extra gst-plugins-bad
 >extra gst-plugins-base
 >extra gst-plugins-good
 >extra gst-plugins-ugly
